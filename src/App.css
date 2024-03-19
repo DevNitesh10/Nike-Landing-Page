@@ -14,19 +14,26 @@
     margin: 0 auto;
     max-width: 1280px;
 }
+.logo{
+    cursor: pointer;
+
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 72px;
-
 }
 nav ul{
     display: flex;
     list-style: none;
     gap: 24px;
-
 }
+nav ul li:hover{
+    cursor: pointer;
+    color: var(--red);
+}
+
 button{
     all: unset;
     padding: 6px 16px;
@@ -34,7 +41,10 @@ button{
     height: 32px;
     color: white;
     font-weight: 500;
-    
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: rgb(189, 5, 5);
 }
 
 .hero{
@@ -66,12 +76,18 @@ button{
 .hero-btn button{
     font-size: 24px;
 }
-
+.primary-btn:hover{
+    background-color: rgb(189, 5, 5);
+}
 .secondary-btn{
     background: transparent;
     color: var(--gray);
     border: 1px solid gray;
 
+}
+.secondary-btn:hover{
+    color: white;
+    background-color: var(--red);
 }
 .shopping{
     font-size: 14px;
@@ -81,4 +97,7 @@ button{
 .brand-icons{
     display: flex;
     gap: 16px;
+    cursor: pointer;
+
 }
+
