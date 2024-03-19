@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <>
-            <nav>
+            <nav className="container">
 
                 <div className="logo">
                     <img src="../public/Images/brand_logo.png" alt="brand logo" />
